@@ -35,7 +35,7 @@ app.use(cors({
       'http://localhost:5176',
       'http://localhost:5177',
       'http://127.0.0.1:5173', 
-      'https://hospital-management-forntend.vercel.app'
+      'https://kps-garments.vercel.app'
     ];
     if (allowedOrigins.includes(origin)) {
       return callback(null, true);
