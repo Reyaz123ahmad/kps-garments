@@ -3,6 +3,7 @@ import { CONFIG } from '../constants/config';
 import toast from 'react-hot-toast';
 
 // Create axios instance
+
 const apiClient = axios.create({
   baseURL: CONFIG.API_BASE_URL,
   timeout: 30000,
